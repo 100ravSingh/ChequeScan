@@ -1,0 +1,9 @@
+python-dotenv
+streamlit
+opencv-python
+google-generativeai
+faiss-cpu
+scikit-image
+matplotlib
+toml
+openpyxl
