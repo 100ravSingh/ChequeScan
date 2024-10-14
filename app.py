@@ -20,7 +20,8 @@ from openpyxl.workbook import Workbook
 load_dotenv()
 
 
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+# genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
 model = genai.GenerativeModel(model_name="gemini-1.5-flash")
 #model = genai.GenerativeModel(model_name="gemini-1.5-pro")
 # img = PIL.Image.open('path/to/image.png')
