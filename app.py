@@ -209,7 +209,7 @@ footer = """
       }
       </style>
       <div class="footer">
-        <p>Designed by Sourav Singh © 2024 | Contact:<a href="https://100ravsingh.github.io/" target = "_blank" >Visit Here!!</a> | <a href="https://100ravsingh.github.io/ChequeScan/">Developer</a></p>
+        <p>Designed by Sourav Singh © 2024 | Contact:<a href="https://100ravsingh.github.io/" target = "_blank" >Visit Here!!</a> | <a href="https://100ravsingh.github.io/ChequeScan/" target = "_blank">Developer</a></p>
       </div>
       """
 
