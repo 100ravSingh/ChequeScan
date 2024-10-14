@@ -20,11 +20,8 @@ from openpyxl.workbook import Workbook
 load_dotenv()
 
 
-# genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
 model = genai.GenerativeModel(model_name="gemini-1.5-flash")
-#model = genai.GenerativeModel(model_name="gemini-1.5-pro")
-# img = PIL.Image.open('path/to/image.png')
 
 if 'customer' not in st.session_state:
   st.session_state.customer = []
@@ -32,8 +29,7 @@ if 'cheque_data' not in st.session_state:
   st.session_state.cheque_data = {}
 
 #Load prompt
-config = toml.load('prompt.toml')
-input_prompt = config['prompt1']['input_prompt']
+input_prompt = st.secrets['prompt1']['input_prompt']
 
 upload_directory = "input_images"
 if not os.path.exists(upload_directory):
