@@ -1,5 +1,6 @@
 # ChequeScan
-## An AI extractor which extract key information from cheque image. [WebApp]()
+## An AI extractor which extract key information from cheque image. 
+## Webapp: [Link](https://chequescan.streamlit.app/)
 ## We welcome your contributions to enhance the prompts in prompt.toml, optimizing output quality.
 ## We gratefully acknowledge the contributions of individiuals who enhance the output. Their names will be listed in our README file.
 ### Tech stack: Python, Streamlit and GenAI API (Google, Microsoft or Meta).
